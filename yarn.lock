@@ -1024,7 +1024,7 @@
     core-js-pure "^3.20.2"
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@^7.10.2", "@babel/runtime@^7.10.5", "@babel/runtime@^7.11.2", "@babel/runtime@^7.12.5", "@babel/runtime@^7.13.10", "@babel/runtime@^7.14.0", "@babel/runtime@^7.14.6", "@babel/runtime@^7.15.3", "@babel/runtime@^7.15.4", "@babel/runtime@^7.16.3", "@babel/runtime@^7.8.4", "@babel/runtime@^7.9.2":
+"@babel/runtime@^7.1.5", "@babel/runtime@^7.10.2", "@babel/runtime@^7.10.5", "@babel/runtime@^7.11.2", "@babel/runtime@^7.12.5", "@babel/runtime@^7.13.10", "@babel/runtime@^7.14.0", "@babel/runtime@^7.14.6", "@babel/runtime@^7.15.3", "@babel/runtime@^7.15.4", "@babel/runtime@^7.16.3", "@babel/runtime@^7.8.4", "@babel/runtime@^7.9.2":
   version "7.17.2"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.17.2.tgz#66f68591605e59da47523c631416b18508779941"
   integrity sha512-hzeyJyMA1YGdJTuWU0e/j4wKXrU4OMFvY2MSlaI9B7VQb0r5cxTE3EAIS2Q7Tn2RIcDkRvTA/v2JsAEhxe99uw==
@@ -7490,11 +7490,12 @@ react-scripts@5.0.0:
   optionalDependencies:
     fsevents "^2.3.2"
 
-react-sticky-box@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/react-sticky-box/-/react-sticky-box-1.0.0.tgz#40a1384a733f93874acbcef76f6fded214c9fc4a"
-  integrity sha512-OdCo44RRSDUlvyYx3IcIh/Y5d1sE2+Ixm8KlJKNZTWjBPTFPVczbLPGveOD/CVQxnIf+oOPJKX53mocr15CH8w==
+react-sticky-box@0.9.3:
+  version "0.9.3"
+  resolved "https://registry.yarnpkg.com/react-sticky-box/-/react-sticky-box-0.9.3.tgz#8450d4cef8e4fdd7b0351520365bc98c97da11af"
+  integrity sha512-Y/qO7vTqAvXuRR6G6ZCW4fX2Bz0GZRwiiLTVeZN5CVz9wzs37ev0Xj3KSKF/PzF0jifwATivI4t24qXG8rSz4Q==
   dependencies:
+    "@babel/runtime" "^7.1.5"
     resize-observer-polyfill "^1.5.1"
 
 react@^17.0.2:

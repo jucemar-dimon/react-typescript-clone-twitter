@@ -2,7 +2,7 @@ import React from 'react';
 import List from '../List';
 import FollowSuggestions from '../FollowSuggestions';
 import News from '../News';
-import type StickyBox from 'react-sticky-box';
+import StickyBox from 'react-sticky-box';
 
 import {
   Container,
